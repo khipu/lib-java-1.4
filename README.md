@@ -91,7 +91,7 @@ pago se tiene el ID, el correo asociado y la URL en khipu para pagar.
 ```
 
 3) Crear una página de Pago.
------------------------
+----------------------------
 
 Este ejemplo genera un archivo .html con un formulario de pago en khipu.
 
@@ -121,7 +121,7 @@ Este ejemplo genera un archivo .html con un formulario de pago en khipu.
 
 
 4) Crear un pago y obtener su URL.
------------------------
+----------------------------------
 
 Este servicio entrega un objeto _KhipuUrlResponse_ para obtener que contiene el identificador de un pago generado, su URL en khipu y la URL para iniciar el pago desde un dispositivo móvil.
 
