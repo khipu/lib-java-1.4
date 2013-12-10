@@ -25,7 +25,7 @@
 
 
 	<packaging>jar</packaging>
-	<name>lib khipu</name>
+	<name>lib khipu - java 1.4</name>
 	<description>Java implementation of khipu client API</description>
 	<url>https://github.com/khipu/lib-java-1.4</url>
 	<licenses>
