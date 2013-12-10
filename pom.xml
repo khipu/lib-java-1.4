@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.khipu</groupId>
+	<artifactId>lib-khipu-1.4</artifactId>
+	<version>1.2.0-SNAPSHOT</version>
+
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.4</source>
+                    <target>1.4</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+	<packaging>jar</packaging>
+	<name>lib khipu</name>
+	<description>Java implementation of khipu client API</description>
+	<url>https://github.com/khipu/lib-java-1.4</url>
+	<licenses>
+		<license>
+			<name>The BSD 3-Clause License</name>
+			<url>http://opensource.org/licenses/BSD-3-Clause</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<url>scm:git:git@github.com:khipu/lib-java-1.4.git</url>
+		<developerConnection>scm:git:git@github.com:khipu/lib-java-1.4.git</developerConnection>
+		<connection>scm:git:git@github.com:khipu/lib-java-1.4.git</connection>
+	</scm>
+	<developers>
+		<developer>
+			<id>alejo</id>
+			<name>Alejandro Vera</name>
+			<email>alejandro.vera@khipu.com</email>
+			<organization>khipu SpA</organization>
+			<organizationUrl>https://khipu.com</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-4</timezone>
+		</developer>
+	</developers>
+
+	<dependencies>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20131018</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+            <scope>compile</scope>
+        </dependency>
+	</dependencies>
+</project>
